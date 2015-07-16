@@ -1,0 +1,28 @@
+{
+    "TileCollection": [
+        {
+            "icon": "bar-chart",
+            "title": "Count of IT Fcode",
+            "info": "Graph",
+            "infoState": "Success"
+        },
+        {
+            "icon": "bar-chart",
+            "title": "Count of Demand",
+            "info": "Chart",
+            "infoState": "Success"
+        },
+        {
+            "icon": "bar-chart",
+            "title": "Count of Status",
+            "info": "Chart",
+            "infoState": "Success"
+        },
+        {
+             "icon": "bar-chart",
+            "title": "Count of Demand Type",
+            "info": "Chart",
+            "infoState": "Success"
+        }
+    ]
+}
