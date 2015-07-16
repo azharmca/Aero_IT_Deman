@@ -1,0 +1,334 @@
+{
+    "Projects": [
+        {
+            "title": "China NavDB Production Site",
+            "type": "apac",
+            "status": "Project Completed",
+            "stage": "Completed",
+            "percentage": "24%",
+            "state": "Success",
+            "proj_status": "Active",
+            "proj_type": "Infrastructure Only"
+        },
+        {
+            "title": "Project Nexus",
+            "type": "apac",
+            "status": "Due in 3 Months",
+            "stage": "Design",
+            "percentage": "0%",
+            "state": "None",
+            "proj_status": "Cancelled",
+            "proj_type": "Infrastructure Only"
+        },
+        {
+            "title": "APAC Site Finance Report Standardization",
+            "type": "apac",
+            "status": "Not Started Yet",
+            "stage": "Pipeline",
+            "percentage": "81%",
+            "state": "Warning",
+            "proj_status": "Completed",
+            "proj_type": "Program"
+        },
+        {
+            "title": "China Electronic Invoicing for R&O Orders",
+            "type": "apac",
+            "status": "Not Started Yet",
+            "stage": "Pipeline",
+            "percentage": "24%",
+            "state": "Warning",
+            "proj_status": "On Hold",
+            "proj_type": "Program"
+        },
+        {
+            "title": "Digitized Product Demo and Presentation",
+            "type": "apac",
+            "status": "Not Started Yet",
+            "stage": "Pipeline",
+            "percentage": "81%",
+            "state": "Warning",
+            "proj_status": "Active",
+            "proj_type": "Project"
+        },
+        {
+            "title": "Enable PRO Process for Bintan site-5103",
+            "type": "apac",
+            "status": "Not Started Yet",
+            "stage": "Pipeline",
+            "percentage": "81%",
+            "state": "Warning",
+            "proj_status": "Active",
+            "proj_type": "Project"
+        },
+        {
+            "title": "Penang Drop Ship to Olathe Customers",
+            "type": "apac",
+            "status": "Project Completed",
+            "stage": "Completed",
+            "percentage": "24%",
+            "state": "Success",
+            "proj_status": "Active",
+            "proj_type": "Program"
+        },
+        {
+            "title": "Forecast Accuracy Automation",
+            "type": "Build",
+            "status": "Not Started Yet",
+            "stage": "Pipeline",
+            "percentage": "24%",
+            "state": "Warning",
+            "proj_status": "Cancelled",
+            "proj_type": "Infrastructure Only"
+        },
+        {
+            "title": "Regression Testing",
+            "type": "Build",
+            "status": "Due in 3 Months",
+            "stage": "Pipeline",
+            "percentage": "81%",
+            "state": "Warning",
+            "proj_status": "Active",
+            "proj_type": "Program"
+        },
+        {
+            "title": "Upgrade HPQC from version 9.2 to Version 12",
+            "type": "Build",
+            "status": "Not Started Yet",
+            "stage": "Pipeline",
+            "percentage": "81%",
+            "state": "Warning",
+            "proj_status": "Cancelled",
+            "proj_type": "Infrastructure Only"
+        },
+        {
+            "title": "Eliminate Optio from Aerospace Application Portfolio",
+            "type": "Build",
+            "status": "Due in 5 Months",
+            "stage": "Active",
+            "percentage": "24%",
+            "state": "Warning",
+            "proj_status": "Cancelled",
+            "proj_type": "Program"
+        },
+        {
+            "title": "Migrate Webspher Commerce to JBOSS",
+            "type": "Build",
+            "status": "Not Started Yet",
+            "stage": "Pipeline",
+            "percentage": "81%",
+            "state": "Warning",
+            "proj_status": "Cancelled",
+            "proj_type": "Project"
+        },
+        {
+            "title": "Hexaware Cross Browser Testing Tool",
+            "type": "Build",
+            "status": "Not Started Yet",
+            "stage": "Pipeline",
+            "percentage": "81%",
+            "state": "Warning",
+            "proj_status": "Cancelled",
+            "proj_type": "Infrastructure Only"
+        },
+        {
+            "title": "HUE Improvements for AERO SAP",
+            "type": "Build",
+            "status": "Project Completed",
+            "stage": "Completed",
+            "percentage": "24%",
+            "state": "Success",
+            "proj_status": "Cancelled",
+            "proj_type": "Program"
+        },
+        {
+            "title": "My Website Tools Issue",
+            "type": "C&PS",
+            "status": "Due in 20 Days",
+            "stage": "Requirements",
+            "percentage": "24%",
+            "state": "Warning",
+            "proj_status": "Completed",
+            "proj_type": "SAP Configuration"
+        },
+        {
+            "title": "My Website Tools Selection Issue",
+            "type": "C&PS",
+            "status": "Due in 3 Days",
+            "stage": "Design",
+            "percentage": "0%",
+            "state": "Warning",
+            "proj_status": "Completed",
+            "proj_type": "SAP Configuration"
+        },
+        {
+            "title": "Allow Portal Tool rename from SFDC",
+            "type": "C&PS",
+            "status": "Due in 5 Months",
+            "stage": "Construct/Test",
+            "percentage": "81%",
+            "state": "Warning",
+            "proj_status": "Completed",
+            "proj_type": "Infrastructure Only"
+        },
+        {
+            "title": "Remove SAP Sold-Tos and Online Ordering Access",
+            "type": "C&PS",
+            "status": "Due in 5 Months",
+            "stage": "Active",
+            "percentage": "24%",
+            "state": "Warning",
+            "proj_status": "Completed",
+            "proj_type": "Program"
+        },
+        {
+            "title": "SFDC Account Page Layout Consolidation",
+            "type": "C&PS",
+            "status": "Not Started Yet",
+            "stage": "Pipeline",
+            "percentage": "81%",
+            "state": "Warning",
+            "proj_status": "Completed",
+            "proj_type": "SAP Configuration"
+        },
+        {
+            "title": "Visual Workflow for Employee Skill Data in SFDC",
+            "type": "C&PS",
+            "status": "Not Started Yet",
+            "stage": "Pipeline",
+            "percentage": "81%",
+            "state": "Warning",
+            "proj_status": "Completed",
+            "proj_type": "Infrastructure Only"
+        },
+        {
+            "title": "Avoinics Maintenance Conference (AMC) Dashboard",
+            "type": "C&PS",
+            "status": "Project Completed",
+            "stage": "Completed",
+            "percentage": "24%",
+            "state": "Success",
+            "proj_status": "Completed",
+            "proj_type": "Program"
+        },
+        {
+            "title": "Report Changes 2014 Bundle",
+            "type": "EIT",
+            "status": "Project Completed",
+            "stage": "Completed",
+            "percentage": "24%",
+            "state": "Success",
+            "proj_status": "On Hold",
+            "proj_type": "Project"
+        },
+        {
+            "title": "Wiki Upgrade",
+            "type": "EIT",
+            "status": "Due in 3 Months",
+            "stage": "Design",
+            "percentage": "0%",
+            "state": "Warning",
+            "proj_status": "On Hold",
+            "proj_type": "Infrastructure Only"
+        },
+        {
+            "title": "Integrated Aero Enterprise Search",
+            "type": "EIT",
+            "status": "Not Yet Started",
+            "stage": "Pipeline",
+            "percentage": "81%",
+            "state": "Warning",
+            "proj_status": "On Hold",
+            "proj_type": "SAP Configuration"
+        },
+        {
+            "title": "CSC Phase- 2 Cross Site Charging Materials",
+            "type": "EIT",
+            "status": "Due in 5 Months",
+            "stage": "Pipeline",
+            "percentage": "81%",
+            "state": "Warning",
+            "proj_status": "On Hold",
+            "proj_type": "Project"
+        },
+        {
+            "title": "Ultratech Project",
+            "type": "EMEA",
+            "status": "Due in 20 Days",
+            "stage": "Requirements",
+            "percentage": "24%",
+            "state": "Warning",
+            "proj_status": "On Hold",
+            "proj_type": "SAP Configuration"
+        },
+        {
+            "title": "Avoinics Maintenance Conference (AMC) Dashboard",
+            "type": "EMEA",
+            "status": "Project Completed",
+            "stage": "Completed",
+            "percentage": "24%",
+            "state": "Success",
+            "proj_status": "On Hold",
+            "proj_type": "SAP Configuration"
+        },
+        {
+            "title": "Report Changes 2014 Bundle",
+            "type": "EMEA",
+            "status": "Project Completed",
+            "stage": "Completed",
+            "percentage": "24%",
+            "state": "Success",
+            "proj_status": "On Hold",
+            "proj_type": "Project"
+        },
+        {
+            "title": "Wiki Upgrade",
+            "type": "EMEA",
+            "status": "Due in 3 Months",
+            "stage": "Design",
+            "percentage": "0%",
+            "state": "Warning",
+            "proj_status": "On Hold",
+            "proj_type": "SAP Configuration"
+        },
+        {
+            "title": "Bundle Change",
+            "type": "EMEA",
+            "status": "Due in 3 Months",
+            "stage": "Warranty",
+            "percentage": "0%",
+            "state": "Warning",
+            "proj_status": "On Hold",
+            "proj_type": "SAP Configuration"
+        },
+        {
+            "title": "Wiki Upgrade Version-2",
+            "type": "Build",
+            "status": "Due",
+            "stage": "Justification",
+            "percentage": "0%",
+            "state": "Warning",
+            "proj_status": "On Hold",
+            "proj_type": "Project"
+        },
+        {
+            "title": "Ultratech Corporation",
+            "type": "EIT",
+            "status": "Due in 3 Months",
+            "stage": "Approval",
+            "percentage": "0%",
+            "state": "Warning",
+            "proj_status": "On Hold",
+            "proj_type": "Project"
+        },
+        {
+            "title": "Wiki Upgrade",
+            "type": "EMEA",
+            "status": "Project Completed",
+            "stage": "Requirements",
+            "percentage": "0%",
+            "state": "Success",
+            "proj_status": "On Hold",
+            "proj_type": "Project"
+        }
+    ]
+}
