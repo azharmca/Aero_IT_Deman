@@ -1,0 +1,24 @@
+{
+    "List": [
+        {
+            "title": "Active",
+            "status": "146",
+            "Target": 20
+        },
+        {
+            "title": "Cancelled",
+            "status": "6",
+            "Target": 40
+        },
+        {
+            "title": "Completed",
+            "status": "39",
+            "Target": 10
+        },
+        {
+            "title": "On Hold",
+            "status": "1",
+            "Target": 80
+        }
+    ]
+}
