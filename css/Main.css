@@ -1,0 +1,45 @@
+.chartTitle {
+	padding-left: 300px !important;
+	font-size: 20px !important;
+	font-family: Arial !important;
+	font-weight: bold !important;
+}
+
+.paddMultiCombo {
+	padding-left: 10px !important;
+}
+
+/* .v-m-background .v-background-body {
+	fill: #D6D7D6 !important;
+} */
+
+/* .v-datalabel {
+	fill: #FFFFFF !important;
+}
+
+.viz-axis-title .viz-axis-title{
+	fill: #FFFFFF !important;
+} */
+/* .rect[Attributes Style] {
+	fill: #3297D7 !important;
+} */
+.v-datapoint-default>rect {
+	fill: #3297D7 !important;
+}
+
+.titleHeader {
+	font-family: bold !important;
+	font-size: 20px !important;
+}
+
+.btnStatsClass {
+	padding-left: 25px !important;
+}
+
+/* .btnAllClass {
+	padding-left: 25px !important;
+} */
+
+.ProjectClass {
+	font-size: 70px !important;
+}
