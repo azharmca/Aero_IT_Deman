@@ -1,0 +1,29 @@
+{
+    "List": [
+        {
+            "title": "Infrastructure Only",
+            "type": "8",
+            "Target": 20
+        },
+        {
+            "title": "Program",
+            "type": "5",
+            "Target": 40
+        },
+        {
+            "title": "Project",
+            "type": "117",
+            "Target": 10
+        },
+        {
+            "title": "SAP Configuration",
+            "type": "28",
+            "Target": 160
+        },
+        {
+           "title": "blank",
+           "type": "0",
+           "Target": 0
+        }
+    ]
+}
