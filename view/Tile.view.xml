@@ -1,0 +1,39 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" controllerName="sap.Aero_IT_Demand.prototype.view.Tile"
+	xmlns:com="sap.suite.ui.commons" xmlns:html="http://www.w3.org/1999/xhtml"
+	id="viewTile">
+	<Page showHeader="true" enableScrolling="false" title="Aero IT Demand"
+		class="pageTitle ListBGWhite">
+
+		<subHeader class="header">
+			<Toolbar class="header">
+				<ToolbarSpacer />
+				<SegmentedButton id="segmButtons" selectedButton="btnStats">
+					<Button id="btnStats" text="Stats" press="onClickStats"
+						class="btnStatsClass SegmentButtonSpaceClass" />
+					<Button id="btnITFcoe" text="IT FCOE" press="onClickITFCOE"
+						class="btnAllClass SegmentButtonSpaceClass" />
+					<Button id="btnProjStage" text="Projects" press="onClickProjects"
+						class="btnAllClass SegmentButtonSpaceClass" />
+				</SegmentedButton>
+				<ToolbarSpacer />
+			</Toolbar>
+		</subHeader>
+
+		<VBox width="100%" justifyContent="Center">
+			<HBox width="100%" justifyContent="Center" class="backRed hBoxPadBottom">
+				<Label id="lab_Projects" text="" class="ProjectClass" />
+			</HBox>
+			<HBox width="100%" justifyContent="Center" class="backRed">
+				<Label text="Projects" class="whiteText" />
+			</HBox>
+
+			<List id="id_Demo_List" items="{ListModel>/List}" class="txtAlgnCenter">
+				<StandardListItem type='Active' title="{ListModel>title}"
+					class="listTitTxtS1" description="{ListModel>description}" press="showITFcoe">
+				</StandardListItem>
+			</List>
+
+		</VBox>
+	</Page>
+</core:View>
