@@ -1,0 +1,23 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" controllerName="sap.wed.invitation.view.NusratWedding"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page class="pageBack">
+		<customHeader>
+			<Bar class="topPadding">
+				<contentLeft>
+					<Button type="Accept" icon="https://cloud.githubusercontent.com/assets/10971600/10159495/1701e0bc-66b6-11e5-9f37-28e9d3aa58b8.jpg" text="Back"
+						press="back" />
+				</contentLeft>
+				<contentMiddle>
+					<Image src="https://cloud.githubusercontent.com/assets/10971600/10160608/3e31c020-66bc-11e5-8eb3-6cf887068420.png" height="2rem" class="Bismillah" />
+				</contentMiddle>
+			</Bar>
+		</customHeader>
+		<content>
+			<HBox width="100%" justifyContent="Center" alignItems="Center"
+				class="wedClass">
+				<Image src="https://cloud.githubusercontent.com/assets/10971600/10160655/895382f0-66bc-11e5-9757-2cab262faaf0.JPG" height="28rem" width="100%" />
+			</HBox>
+		</content>
+	</Page>
+</core:View>
