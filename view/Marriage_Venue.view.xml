@@ -1,0 +1,35 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" controllerName="sap.wed.invitation.view.Marriage_Venue"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page class="pageBack">
+		<customHeader>
+			<Bar class="topPadding">
+				<contentLeft>
+					<Button type="Accept" icon="https://cloud.githubusercontent.com/assets/10971600/10159495/1701e0bc-66b6-11e5-9f37-28e9d3aa58b8.jpg" text="Back"
+						press="back" />
+				</contentLeft>
+				<contentMiddle>
+					<Image src="https://cloud.githubusercontent.com/assets/10971600/10160625/5a63d5e4-66bc-11e5-878a-041ee2a1921f.jpg" height="2rem" class="Bismillah" />
+				</contentMiddle>
+			</Bar>
+		</customHeader>
+		<content>
+
+			<HBox class="hBox" justifyContent="Center" alignItems="Center">
+				<Label text="When :" class="labelClass" />
+				<Text text="October 25, 2015, 12:45:00 PM" class="textClass" />
+			</HBox>
+
+			<HBox class="hBox1" justifyContent="Center" alignItems="Center">
+				<Label text="Where :" class="labelClass" />
+				<Text
+					text="City Municipal Council Samudaya Bhavan Sector No.19 Behind Dist. Court Navanagar - Bagalkot"
+					class="textClass" />
+			</HBox>
+			<HBox width="100%" justifyContent="Center" alignItems="Center"
+				class="coupleClass">
+				<Image src="https://cloud.githubusercontent.com/assets/10971600/10160455/55999cde-66bb-11e5-9c2e-c84738231c2c.jpg" width="100%" />
+			</HBox>
+		</content>
+	</Page>
+</core:View>
