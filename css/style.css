@@ -1,0 +1,92 @@
+.topPadding {
+	padding-top: 30px !important;
+	background-color: #FF69B4 !important;
+	background: #FF69B4 !important;
+}
+
+.wedLabel {
+	color: #FFFFFF !important;
+	font-size: 31px !important;
+	text-shadow: 2px 2px #8B0000;
+	border-radius: 11px;
+	font-family: fantasy !important;
+}
+
+.pageBack {
+	background-image: url("image/RoseBack.jpg");
+	background-size: 150px;
+}
+
+.imageLogo {
+	height: 39px;
+	width: 48px;
+	padding-left: 27px;
+}
+
+.Bismillah {
+	width: 250px !important;
+}
+
+.MidScreen {
+	height: 100px;
+	padding-top: 95px;
+}
+
+.navContainerControl {
+	border-color: #888;
+	border-style: solid;
+	border-width: 0.0625em;
+}
+
+.NavContainerClass {
+	width: 350px;
+	height: 235px;
+	padding-left: 12px;
+	padding-top: 10px;
+}
+
+.imageScroll {
+	height: 22rem;
+	width: 25rem;
+	padding-left: 0px;
+	padding-top: 11rem;
+}
+
+.SecondClass {
+	padding-top: 12.8rem;
+}
+
+.labelClass {
+	font-size: 20px !important;
+	color: #FF3399 !important;
+}
+
+.hBox>.sapMFlexItem>.textClass {
+	font-size: 20px !important;
+	color: #000099 !important;
+	padding-left: 10px !important;
+}
+
+.hBox1>.sapMFlexItem>.textClass {
+	font-size: 20px !important;
+	color: #000099 !important;
+	padding-left: 10px !important;
+	padding-top: 10px !important;
+}
+
+.hBox {
+	padding-top: 8rem !important;
+}
+
+.hBox1 {
+	padding-top: 3rem !important;
+	padding-left: 22px;
+}
+
+.coupleClass {
+	padding-top: 32px !important;
+}
+
+.wedClass {
+	padding-top: 8rem !important;
+}
