@@ -1,65 +1,37 @@
-jQuery.sap.declare("sap.Aero_IT_Demand.prototype.Component");
+jQuery.sap.declare("sap.wed.invitation.Component");
 // jQuery.sap.require("sap.Aero_IT_Demand.prototype.Formatter");
 // jQuery.sap.includeStyleSheet("css/TimeSheet.css");
 jQuery.sap.require("sap.ui.core.routing.History");
 jQuery.sap.require("sap.m.routing.RouteMatchedHandler");
 jQuery.sap.require("sap.m.MessageBox");
 
-sap.ui.core.UIComponent.extend("sap.Aero_IT_Demand.prototype.Component",
+sap.ui.core.UIComponent.extend("sap.wed.invitation.Component",
 		{
 			metadata : {
 				routing : {
 					config : {
 						viewType : "XML",
-						viewPath : "sap.Aero_IT_Demand.prototype.view",
+						viewPath : "sap.wed.invitation.view",
 						targetControl : "fioriContent",
 						targetAggregation : "pages",
 						clearTarget : false
 					},
 					routes : {
-						"main" : {
+						"Launch" : {
 							pattern : "",
-							view : "Tile"
+							view : "Launch"
 						},
-						"ITFcoe" : {
-							pattern : "ITFcoe",
-							view : "ITFcoe"
+						"NusratWedding" : {
+							pattern : "NusratWedding",
+							view : "NusratWedding"
 						},
-						"Tile" : {
-							pattern : "Tile",
-							view : "Tile"
+						"Marriage_Venue" : {
+							pattern : "Marriage_Venue",
+							view : "Marriage_Venue"
 						},
-						"Proj_Stage" : {
-							pattern : "Proj_Stage",
-							view : "Proj_Stage"
-						},
-						"Proj_Status" : {
-							pattern : "Proj_Status",
-							view : "Proj_Status"
-						},
-						"Proj_Type" : {
-							pattern : "Proj_Type",
-							view : "Proj_Type"
-						},
-						"ITFCOE_Projects" : {
-							pattern : "ITFCOE_Projects",
-							view : "ITFCOE_Projects"
-						},
-						"All_Projects" : {
-							pattern : "All_Projects",
-							view : "All_Projects"
-						},
-						"Proj_Stage_Details" : {
-							pattern : "Proj_Stage_Details",
-							view : "Proj_Stage_Details"
-						},
-						"Proj_Status_Details" : {
-							pattern : "Proj_Status_Details",
-							view : "Proj_Status_Details"
-						},
-						"Proj_Type_Details" : {
-							pattern : "Proj_Type_Details",
-							view : "Proj_Type_Details"
+						"SwalehaWedding" : {
+							pattern : "SwalehaWedding",
+							view : "SwalehaWedding"
 						}
 					}
 				}
@@ -79,7 +51,7 @@ sap.ui.core.UIComponent.extend("sap.Aero_IT_Demand.prototype.Component",
 				sIdSelected = "";
 				this.oView = new sap.ui.view({
 					height : "100%",
-					viewName : "sap.Aero_IT_Demand.prototype.view.Main",
+					viewName : "sap.wed.invitation.view.Home",
 					type : "XML",
 					viewData : {
 						component : this
