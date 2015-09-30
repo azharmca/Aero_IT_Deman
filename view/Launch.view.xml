@@ -1,0 +1,76 @@
+<core:View height="100%" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:l="sap.ui.layout" xmlns="sap.m" controllerName="sap.wed.invitation.view.Launch"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page class="pageBack">
+		<customHeader>
+			<Bar class="topPadding">
+				<contentMiddle>
+					<Image src="https://cloud.githubusercontent.com/assets/10971600/10160442/4776839c-66bb-11e5-87b1-12137126b397.jpg" alt="" class="Bismillah" />
+				</contentMiddle>
+				<contentRight>
+					<Button type="Accept" text="Marriage Venue" press="venueDetails" />
+				</contentRight>
+			</Bar>
+		</customHeader>
+		<!-- <subHeader> <Toolbar> <Button type="Accept" text="Marriage Venue" 
+			press="venueDetails" /> <Button type="Accept" text="Reject" press="onPress" 
+			/> <ToolbarSpacer /> </Toolbar> </subHeader> -->
+		<content>
+			<HBox justifyContent="Center" alignItems="Center" class="MidScreen">
+				<Carousel loop="true">
+					<pages>
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160668/98f3c22e-66bc-11e5-9bea-e13f93e9336d.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160513/b2765848-66bb-11e5-89b9-0d1100264b6b.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160777/4dc02c24-66bd-11e5-9450-ff9f8353f6b8.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160559/febe5b2e-66bb-11e5-92ea-6ea7ef3bce3c.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160564/07937298-66bc-11e5-87e1-df6264cd5a5d.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160570/113f2206-66bc-11e5-89c3-6e662e61a899.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160575/19d33da8-66bc-11e5-9ee0-2a24e5f64dc5.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160585/24807f7c-66bc-11e5-9530-f915c1ff9240.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160593/2ca1bb08-66bc-11e5-9ac4-01de37d571e5.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160601/362d524a-66bc-11e5-9625-108735fabdd9.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160470/6bd76026-66bb-11e5-87f7-97695a13e489.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160479/78b46c12-66bb-11e5-8d09-af4f4b1cf865.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160485/86bb7a30-66bb-11e5-8644-9b61fac92b05.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160492/9277347c-66bb-11e5-938e-fd2236cd6719.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160503/9cc2e43a-66bb-11e5-91ac-a2407660aba1.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160509/aa3bd23e-66bb-11e5-98b2-5d40435d6448.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160479/78b46c12-66bb-11e5-8d09-af4f4b1cf865.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160515/ba8e9590-66bb-11e5-87b8-750edf96aaf9.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160521/c4f13560-66bb-11e5-99f2-50638a225ed3.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160536/daa4225a-66bb-11e5-98b3-41ebdd26fe05.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160556/f41c9582-66bb-11e5-913d-d11f65a6ea8d.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160618/51a4a500-66bc-11e5-8652-c484419198ba.jpg" class="imageScroll" />
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160612/47c49cca-66bc-11e5-90fd-18685dd9265c.png" class="imageScroll" />
+					</pages>
+				</Carousel>
+			</HBox>
+
+			<VBox class="sapUiSmallMargin SecondClass">
+				<HBox justifyContent="Center" alignItems="Center">
+					<Button id="idBtn" text="Swaleha Parveen's Wedding Invitation"
+						press="handleNav">
+						<layoutData>
+							<FlexItemData growFactor="1" />
+						</layoutData>
+						<customData>
+							<core:CustomData id="cData" key="target" value="p2" />
+						</customData>
+					</Button>
+				</HBox>
+				<NavContainer id="navCon" width="98%" height="16em"
+					class="navContainerControl">
+					<Page id="p1" showHeader="false" enableScrolling="false">
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160630/637b7812-66bc-11e5-8597-3c38cf029d46.png" class="NavContainerClass"
+							press="onNusratWedding" />
+					</Page>
+					<Page id="p2" showHeader="false" enableScrolling="false">
+						<Image src="https://cloud.githubusercontent.com/assets/10971600/10160675/a1509014-66bc-11e5-928c-90d2edcbdfc9.png" class="NavContainerClass"
+							press="onSwalehaWedding" />
+					</Page>
+				</NavContainer>
+
+			</VBox>
+		</content>
+	</Page>
+</core:View>
